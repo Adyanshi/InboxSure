@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,700;1,300&family=Poppins:wght@300;400;500;600&display=swap');
+
+ul li {
+    font-weight: 500;
+}
+
+nav img {
+    filter: invert(1);
+}
+
+main {
+    min-height: 80vh;
+}
+
+.container {
+    max-width: 80vw;
+    margin-top: 30px;
+    margin: auto;
+    padding: 19px 25px;
+}
+
+.container h1 {
+    padding: 12px 0;
+    margin-top: 40px;
+    font-family: 'Pangolin', cursive;
+}
+
+input[type='text'] {
+    min-width: 23vw;
+    padding: 3px 12px;
+    border: 2px solid black;
+    border-radius: 4px;
+    font-size: 20px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: 200;
+    text-align: center;
+    text-decoration: none;
+    background-color: rgb(2, 52, 61);
+    color: #ffffff;
+    border-radius: 10px;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+}
+
+hr {
+    border-color: rgb(4, 74, 87);
+    border-style: dotted none none;
+    border-width: 6px;
+    height: 0px;
+    width: 5%;
+    margin: 40px auto;
+}
+
+  
+#About {
+    align-items: center;
+    justify-content: center;
+    padding: 20px 20px;
+
+}
+
+h2 {
+    color: rgb(2, 52, 61);
+    font-family: 'Pangolin', cursive;
+    padding-bottom: 10px;
+}
+
+h3 {
+    font-weight: normal;
+    color: rgb(2, 52, 61);
+    font-family: 'Pangolin', cursive;
+}
+
+
+#resultCont div::first-letter {
+    text-transform: uppercase;
+}
+
+footer {
+    font-size: small;
+    background-color: rgb(2, 52, 61);
+    color: white;
+    display: flex;
+    padding: 15px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+@media only screen and (max-width: 600px) {
+
+    .container {
+        font-size: 12px;
+    }
+}

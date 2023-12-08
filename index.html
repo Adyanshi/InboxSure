@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>InboxSure-An Email Validator</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" href="img\envelope-check.svg">
+</head>
+<body>
+    <header>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+  <section id="title">
+  <nav class="navbar navbar-expand-lg navbar-light bg-info-subtle" data-bs-theme="dark">
+    
+    <a class="navbar-brand ms-2" href="#"><img src="img\envelope-check.svg" alt="email svg" width="30" height="24" class="d-inline-block align-text-top"><b>InboxSure</b></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbartogglerdemo02"
+      aria-controls="navbartogglerdemo02" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbartogglerdemo02">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="/">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#About">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#Contact">Contact-Us</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+    </header>
+    <main>
+      <section id="Home" class="shadow-lg p-3 mb-5 bg-body-tertiary rounded">
+        
+        <div class="container-fluid text-center shadow-lg p-3 mb-5 bg-body-tertiary rounded">
+            <h1 class="text-info-emphasis text-center mt-5 mb-3">Enter Your Email To Validate</h1>
+            <form action="/submit" method="post">
+                <!-- Text input for username --> 
+                <input placeholder="Enter your email to validate" type="text" id="username" name="username" required>
+                <br><br>
+                <!-- Submit button -->
+                <button id="submitBtn" type="button" class="btn text-center mb-5">Submit</button>
+              </form>
+        </div>
+
+        <div class="container-fluid text-center">
+            <h2 class="text-info-emphasis text-center">Your Results</h2>
+            <div id="resultCont">
+                <h6 class="text-info-emphasis text-center">Your results will show here</h6>
+
+            </div>
+        </div>
+        <hr>
+      </section>
+      <section id="About">
+        <h6 class="text-info-emphasis container-fluid text-center mb-5">ABOUT</h6>
+        <h2 class="text-center">Learn More about InboxSure ! </h2>
+        <p class="text-info-emphasis text-center">We trust this finds you well. In the fast-paced digital era, effective communication is key to success, and one of the most ubiquitous tools for professional correspondence is email. However, the quality of your email list is crucial to ensuring that your messages reach the right audience and achieve their intended impact.</p>
+
+        <p class="text-info-emphasis text-center">We are reaching out to introduce you to the valuable tool of email validation and its potential to transform your communication strategy.</p>
+
+        <p class="text-info-emphasis text-center"> Email validation helps eliminate invalid email addresses from your list, reducing the likelihood of bounce-backs. This ensures that your messages reach your intended recipients without disruptions, contributing to a higher deliverability rate</p>
+
+        <p class="text-info-emphasis text-center">Manually managing an email list can be time-consuming and resource-intensive. Email validation automates the process, allowing you to efficiently clean and maintain your list, freeing up valuable time and resources for more strategic tasks</p>
+      </section>
+      <hr>
+      <section id="Contact">
+        <div class="Contact-Me container-fluid text-center mb-2">
+          <h6 class="text-info-emphasis mb-4">CONTACT-US</h6>
+          <h2 class="text-center">Get in Touch</h2>
+          <h3 class="text-center">Want to contact?</h3>
+          <p class="contact-msg text-info-emphasis text-center">connect with us on Linkedin </p>
+          <a class="btn" href="https://www.linkedin.com/in/adyanshi-singh-6779a6251">Contact-Me</a>
+      </div>
+      </section>
+    </main>
+    <footer>
+        <p class="copyright"> &#x24D2; 2023 | InboxSure.com | All Rights Reserved</p>
+    </footer>
+    <script src="js/index.js"></script>
+</body>
+</html>
